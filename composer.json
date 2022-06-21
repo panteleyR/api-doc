@@ -13,7 +13,7 @@
     "require": {
         "php": ">=8.1",
         "lilith/common": "dev-master",
-        "lilith/filesystem": "dev-master",
+        "lilith/filesystem": "master",
         "symfony/yaml": "^6.1"
     },
     "autoload": {
