@@ -1,0 +1,24 @@
+{
+    "name": "lilith/api-doc",
+    "description": "Common interface for HTTP messages",
+    "keywords": [],
+    "homepage": "https://github.com/panteleyR/common",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rost",
+            "homepage": "https://google.com/"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "lilith/common": "dev-master",
+        "lilith/filesystem": "dev-master",
+        "symfony/yaml": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lilith\\ApiDoc\\": "src/"
+        }
+    }
+}
